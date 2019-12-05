@@ -1,0 +1,30 @@
+{
+  "name": "cron-boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "comment-json": "^2.1.0",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.17.0",
+    "firebase-admin": "^8.5.0",
+    "fs": "0.0.1-security",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "util": "^0.12.1"
+  }
+}
